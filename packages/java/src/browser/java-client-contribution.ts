@@ -140,7 +140,10 @@ export class SemanticHighlightFeature extends TextDocumentFeature<TextDocumentRe
         if (!capabilities.textDocument) {
             capabilities.textDocument = {};
         }
-        (capabilities.textDocument as object & { semanticHighlighting: boolean }).semanticHighlighting = true;
+        // tslint:disable-next-line:no-any
+        (capabilities.textDocument as any).semanticHighlightingCapabilities = {
+            semanticHighlighting: true
+        };
     }
 
     initialize(capabilities: ServerCapabilities, documentSelector: DocumentSelector): void {
