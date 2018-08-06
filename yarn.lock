@@ -6376,9 +6376,9 @@ monaco-html@^2.0.2:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/monaco-html/-/monaco-html-2.1.1.tgz#464572924e3e0ab05a0e8e6abbbda166f400b25c"
 
-monaco-languageclient@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/monaco-languageclient/-/monaco-languageclient-0.7.2.tgz#74a9db05ad4303a8b64ee3f16b8d2e41478b28ae"
+monaco-languageclient@next:
+  version "0.8.0-next.3"
+  resolved "https://registry.yarnpkg.com/monaco-languageclient/-/monaco-languageclient-0.8.0-next.3.tgz#4dda6d8a193a2a62471d36d04f370d6f3fd996dc"
   dependencies:
     glob-to-regexp "^0.3.0"
     monaco-editor-core "^0.13.2"
@@ -9428,9 +9428,9 @@ typedoc@^0.8:
     typedoc-default-themes "^0.5.0"
     typescript "2.4.1"
 
-typescript-language-server@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.2.0.tgz#c472b26ea9eb078158b742b4b7315209864a1c82"
+typescript-language-server@next:
+  version "0.3.0-next.1142129"
+  resolved "https://registry.yarnpkg.com/typescript-language-server/-/typescript-language-server-0.3.0-next.1142129.tgz#68c88800313c499344d83c6f90510a35931f8727"
   dependencies:
     command-exists "1.2.6"
     commander "^2.11.0"
